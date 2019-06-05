@@ -12,6 +12,7 @@ namespace StartingAppiumServer
         [TestMethod]
         public void StartingAppiumServerTest()
         {
+            //Starting the Appium Server
             AppiumServiceBuilder appiumServiceBuilder = new AppiumServiceBuilder()
                                                           .UsingAnyFreePort()
                                                           .WithAppiumJS(new System.IO.FileInfo(@"C:\Program Files (x86)\Appium\resources\app\node_modules\appium\build\lib\main.js"));
