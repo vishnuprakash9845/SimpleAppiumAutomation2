@@ -15,6 +15,7 @@ namespace StartingAppiumServer
             //Starting the Appium Server
             //For Calculator Application
             //Performing the Actions on the Calculator Application
+            //Starting sever with default port no
             AppiumServiceBuilder appiumServiceBuilder = new AppiumServiceBuilder()
                                                           .UsingAnyFreePort()
                                                           .WithAppiumJS(new System.IO.FileInfo(@"C:\Program Files (x86)\Appium\resources\app\node_modules\appium\build\lib\main.js"));
