@@ -10,6 +10,7 @@ namespace NativeApplicationsTest.PageActions
     {
         private readonly CalculatorHomePage _pageInstance;
         private AppiumDriver<IWebElement> driver;
+
         public CalculatorHomeAction(AppiumDriver<IWebElement> driver)
         {
             this.driver = driver;
